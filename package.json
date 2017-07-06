@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "this is the personal website/portfolio for jonathan daniel web developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spamalope01/portfolio.git"
+  },
+  "author": "Jonathan Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spamalope01/portfolio/issues"
+  },
+  "homepage": "https://github.com/spamalope01/portfolio#readme"
+}
