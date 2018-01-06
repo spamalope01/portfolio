@@ -3,55 +3,103 @@
   <head>
     <meta charset="utf-8">
     <title>Jonathan Daniel Web Developer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
   </head>
   <body>
     <header>
-      <nav>
-        <!-- may not have a nav -->
+      <h1 class="logo">Jonathan Daniel</h1>
+      <nav class="stickyNav">
+        <ul class="globalNav">
+            <li><a href="#testimonials" class="smoothScroll">Testimonials</a></li>
+            <li><a href="#work" class="smoothScroll">Our Work</a></li>
+            <li><a href="#about" class="smoothScroll">About Us</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+          </ul>
       </nav>
     </header>
 
     <main>
-      <section class="topSection">
-
+      <section class="hero">
+        <p>Hey! I'm Jonathan.  I build websites and web applications.</p>
       </section>
 
       <section class="expertise">
         <section class="baStuff">
 
         </section>
-        <section class="uiStuff">
+        <section class="websites">
 
         </section>
-        <section class="codeStuff">
+        <section class="webApps">
 
         </section>
 
       </section>
 
       <section class="workSection">
+        <div class="losh3Image"></div>
+        <div class="losh3Text"></div>
+
+        <div class="devolunteerImage"></div>
+        <div class="devolunteerText"></div>
+
+        <div class="gentlyPetsImage"></div>
+        <div class="gentlyPetsText"></div>
+
 
       </section>
 
-      <section class="personalProjects">
-        <section class="devolunteer">
-
+      <section class="aboutMe">
+        <section class="meImage">
+          <img src="" alt="">
         </section>
-        <section class="genlyPets">
-
-        </section>
-        <section class="medTrack">
-
+        <section class="meText">
+          <div class="meDescription">
+            <p>I'm a dude who does shit.</p>
+            <button>download resume</button>
+          </div>
+          <div class="social">
+            <img src="" alt=""> <!-- linkedin -->
+            <img src="" alt=""> <!-- github -->
+          </div>
         </section>
 
       </section>
 
       <section class="contactMe">
+        <div class="contactText">
+          <p>Want to work together?  other text here...</p>
+        </div>
 
+        <div class="contactUs">
+            <section>
+              <form class="contactForm" action="/send" method="post">
+                <label for="sender">Name</label>
+                <input class="inputField" type="text" name="sender" value="" required>
+                <label for="email">Email</label>
+                <input class="inputField" type="email" name="email" value="">
+                <label for="phone">Phone Number</label>
+                <input class="inputField" type="text" name="phone" value="">
+                <label for="message">Message</label>
+                <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too."></textarea>
+                <input class="sendMail btn" type="button" name="sendIt" value="Submit">
+              </form>
+              <span id="sentMessage"></span>
+            </section>
+          </div>
+        </div>
+          <a href="#top" class="backTop smoothScroll">Back to top</a>
+        </section>
       </section>
     </main>
     <footer>
-
+      <p>Designed and built by Jonathan Daniel &copy 2018</p>
+      <img src="" alt=""> <!-- github -->
+      <img src="" alt=""> <!-- linkedin -->
     </footer>
   </body>
+  <script type="text/javascript" src="scripts/mail.js"></script>
 </html>
