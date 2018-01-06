@@ -1,0 +1,80 @@
+.stickyNav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  height: 7em;
+  border-bottom: 1px solid #fff;
+}
+
+
+.globalNav {
+  right: 5px;
+  float: right;
+  list-style: none;
+  margin:0;
+  padding:0;
+  color: white;
+  width: auto;
+  height: 2em;
+  background:rgba(0,0,0,0);
+}
+
+.darkNav {
+  background: rgba(0,0,0,.75);
+}
+
+.globalNav li {
+margin: 0, auto;
+display: inline;
+font-size: 1em;
+line-height: 1;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.globalNav li a {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0.625em;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.contactWrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
+}
+
+.contactUs {
+  grid-column: 3 / 7;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+
+.contactBtn {
+  background: #fff;
+  width: 5em;
+  height: 10em;
+  z-index: 10;
+}
