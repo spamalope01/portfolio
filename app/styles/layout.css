@@ -3,8 +3,8 @@
   position: fixed;
   width: 100%;
   z-index: 6;
-  height: 7em;
-  border-bottom: 1px solid #fff;
+  height: 5em;
+  /* border-bottom: 1px solid #fff; */
 }
 
 
@@ -21,7 +21,7 @@
 }
 
 .darkNav {
-  background: rgba(0,0,0,.75);
+  background: rgba(255,255,255,.75);
 }
 
 .globalNav li {
@@ -37,7 +37,7 @@ text-transform: uppercase;
   margin-top: 5px;
   display: inline-block;
   padding: 0.625em;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 
 }
@@ -51,6 +51,43 @@ text-transform: uppercase;
   margin-bottom: 10px;
 }
 
+/* HERO */
+
+.heroText {
+  position: absolute;
+  background:rgba(0,0,0,0.5);
+  top: 40%;
+}
+
+.helloText {
+  font-size: 5.75rem;
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* TESTIMNOIALS */
+
+.expertise {
+  text-align: center;
+}
+
+.baStuff {
+  grid-column: 3 / 4;
+  border: 1px solid black;
+}
+
+.websites {
+  grid-column: 5 / 6;
+  border: 1px solid black;
+}
+
+.webApps {
+  grid-column: 7 / 8;
+  border: 1px solid black;
+}
+
+/* CONTACT ME */
 .contactWrapper {
   display: grid;
   grid-template-columns: repeat(12, 200px);

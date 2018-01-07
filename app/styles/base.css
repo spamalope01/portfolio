@@ -3,8 +3,11 @@
   background-size: cover;
   height: 100vh;
   position: relative;
-  text-align: center;
   width: 100%;
   min-height: 350px;
-  
+}
+
+.expertise {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
 }
