@@ -59,12 +59,8 @@ text-transform: uppercase;
 
 .heroText{
   color: #fff;
-  /* border: 3px solid black; */
   height: 88.05%;
   position: absolute;
-  /* top: 30%; */
-  /* left: 10%; */
-    /* margin: 0 auto; */
     width: 100%;
     text-align: center;
     padding: 50px 0;
@@ -80,14 +76,12 @@ text-transform: uppercase;
 
 .heroFirst{
     text-transform: uppercase;
-    /* color: #fff; */
     font-size: 50px;
     margin: 0;
     opacity: 0;
   }
 
 .heroSecond{
-    /* color: #e0e0e0; */
     margin: 15px 0 25px 0;
     font-weight: 400;
     font-size: 24px;
@@ -96,7 +90,6 @@ text-transform: uppercase;
 
 .heroThird{
     padding: 15px 20px;
-    /* background: #ffa749; */
     text-align: center;
     display: inline-block;
     margin-top: 80px;
@@ -136,15 +129,40 @@ text-transform: uppercase;
 
 /* Work Section */
 
-.workOne, .workTwo, .workThree{
+/* .workOne, .workTwo, .workThree{
   width: 30%;
   /* display: inline-block; */
-}
+} */
 
-.workSection img {
+/* .workSection {
+  display: grid;
+  grid-template-columns: repeat(6, 280px);
+  grid-template-rows: repeat(6, 250px);
+
+} */
+
+/* .l2Image {
+  grid-column: 4 / 5;
+  grid-row: 3 / 5;
+} */
+
+/* .l2Text {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+} */
+
+/* .devolunteerImage {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
   display: inline-block;
   width: 30%;
-}
+} */
+
+/* .devolunteerText {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+
+} */
 
 
 /* CONTACT ME */
