@@ -129,40 +129,52 @@ text-transform: uppercase;
 
 /* Work Section */
 
-/* .workOne, .workTwo, .workThree{
-  width: 30%;
-  /* display: inline-block; */
-} */
+.workSection img {
+  size: 30%;
+}
 
-/* .workSection {
-  display: grid;
-  grid-template-columns: repeat(6, 280px);
-  grid-template-rows: repeat(6, 250px);
+.workSection p {
+  margin-bottom: 10%;
+}
 
-} */
-
-/* .l2Image {
+.l2Image {
   grid-column: 4 / 5;
-  grid-row: 3 / 5;
-} */
-
-/* .l2Text {
   grid-row: 1 / 2;
-  grid-column: 1 / 2;
-} */
+}
 
-/* .devolunteerImage {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  display: inline-block;
-  width: 30%;
-} */
-
-/* .devolunteerText {
-  grid-column: 3 / 4;
+.l2Text{
+  grid-column: 2 / 4;
   grid-row: 1 / 2;
+}
 
-} */
+.devolunteerImage {
+  width: 85%;
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+
+.devolunteerText{
+  grid-column: 4 / 6;
+  grid-row: 3 / 3;
+}
+
+.petsImage {
+  grid-column: 4 / 5;
+  grid-row: 5 / 6;
+}
+
+.gentlyPetsText {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+}
+
+
+/* About Me */
+
+.meImage{
+  width: 20%;
+  border-radius: 50%;
+}
 
 
 /* CONTACT ME */

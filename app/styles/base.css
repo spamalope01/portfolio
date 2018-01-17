@@ -16,48 +16,32 @@
 }
 
 .workSection{
-  background: pink;
+  /* background: pink; */
   display: grid;
   grid-template-columns: repeat(6, 280px);
   grid-template-rows: repeat(6, 250px);
+  border-bottom: 1px solid black;
 }
 
-.l2Image {
-  grid-column: 4 / 5;
-  grid-row: 1 / 2;
+.siteButton{
+  height: auto;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.3rem;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  letter-spacing: 0;
+  border-radius: 50px;
+  border: 2px solid #999;
+  color: #999;
+  margin-top: 2%;
 }
 
-.l2Text{
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-}
-
-.devolunteerImage {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-}
-
-.devolunteerText{
-  grid-column: 4 / 5;
-  grid-row: 3 / 3;
-}
-
-.petsImage {
-  grid-column: 4 / 5;
-  grid-row: 5 / 6;
-}
-
-.gentlyPetsText {
-  grid-column: 2 / 3;
-  grid-row: 5 / 6;
-}
-
-/* .workSection {
+.aboutMe {
   width: 100%;
-  margin-bottom: 5rem;
-  display: grid;
-  grid-template-columns: repeat(6, 280px);
-  grid-template-rows: repeat(6, 250px);
-  background: pink;
-  text-align: center;
-} */
+  height: 30rem;
+  border-bottom: 1px solid black;
+}
