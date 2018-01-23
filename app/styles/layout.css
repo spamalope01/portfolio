@@ -237,16 +237,14 @@ input, textarea {
 /* Footer */
 
 .footerText {
-  position: absolute;
-  top: 35%;
-  left: 40%;
+  /* margin-top: 30%; */
 }
 
-.socFooter {
+/* .socFooter {
   position: absolute;
   top: 50%;
   left: 45%;
-}
+} */
 
 .socFooter img {
   width: 36px;
