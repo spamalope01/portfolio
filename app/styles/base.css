@@ -59,4 +59,9 @@ footer{
   background-color: #252a30;
   color: #fff;
   position: relative;
+  text-align: center;
+}
+
+.invert{
+    -webkit-filter: invert(100%);
 }

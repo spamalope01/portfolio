@@ -5,6 +5,7 @@ var port = process.env.PORT || 9000;
 
 const password = require('./variables');
 let pass = password.password;
+let user = password.user;
 
 
 app.use(express.static(__dirname + '/app'));
@@ -17,14 +18,14 @@ app.get('/', function(req, res) {
 var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   auth: {
-    user: "l2workquery@gmail.com",
+    user: user,
     pass: pass
   }
 });
 
 app.get('/send', function(req, res) {
   var mailOptions={
-    to : "l2workquery@gmail.com",
+    to : "jdanielwebdev@gmail.com",
     subject: "Inquiry about work.",
     from: req.query.email,
     phone: req.query.phone,
