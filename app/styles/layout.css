@@ -103,9 +103,9 @@ text-transform: uppercase;
 .skillContainer {
   text-align: center;
   margin-top: 4rem;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   padding-bottom: 5rem;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
 }
 
 .baStuff {
