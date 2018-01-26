@@ -8,14 +8,17 @@
 }
 
 .expertise {
+  position: relative;
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
+  border-bottom: 1px solid grey;
   /* display: grid; */
   /* grid-template-columns: repeat(12, 200px); */
   /* grid-template-columns: repeat(8, 200px); */
 }
 
 .workSection{
+  position: relative;
   /* background: pink; */
   display: grid;
   grid-template-columns: repeat(6, 280px);
@@ -43,11 +46,12 @@
 .aboutMe {
   position: relative;
   width: 100%;
-  height: 30rem;
+  height: 35rem;
   border-bottom: 1px solid black;
 }
 
 .contactMe {
+  position: relative;
   width: 100%;
   height: auto;
   border-bottom: 1px solid black;
@@ -62,6 +66,23 @@ footer{
   text-align: center;
 }
 
+.footerText {
+  display: inline-block;
+}
+
 .invert{
     -webkit-filter: invert(100%);
 }
+
+.backTop {
+  position: absolute;
+    right: 2%;
+    bottom: 5%;
+}
+
+/* .backTop {
+  position: absolute;
+  margin-right: 1%;
+  bottom: 0;
+  right: 0;
+} */
