@@ -1,0 +1,30 @@
+.aboutMe {
+  position: relative;
+  width: 100%;
+  height: 35rem;
+  border-bottom: 1px solid black;
+}
+
+.meImage{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.meDescription {
+  position: absolute;
+  top: 20%;
+  left: 44%;
+  width: 30rem;
+}
+
+.meDescription p {
+  margin-bottom: 10%;
+}
+
+.meDescription img {
+  width: 1.5rem;
+  margin-left: 2rem;
+}

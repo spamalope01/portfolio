@@ -1,0 +1,116 @@
+.stickyNav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  height: 5em;
+  /* border-bottom: 1px solid #fff; */
+}
+
+
+.globalNav {
+  right: 5px;
+  float: right;
+  list-style: none;
+  margin:0;
+  padding:0;
+  color: white;
+  width: auto;
+  height: 2em;
+  background:rgba(0,0,0,0);
+}
+
+.darkNav {
+  background: rgba(255,255,255,.75);
+  z-index: 80;
+}
+
+.globalNav li {
+margin: 0, auto;
+display: inline;
+font-size: 1em;
+line-height: 1;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.globalNav li a {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0.625em;
+  color: #000;
+  text-decoration: none;
+
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+
+
+.hero {
+  background: url('../images/portfolioHero-min.jpg') no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+}
+
+.heroText{
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background:rgba(0,0,0,0.3);
+  opacity: 0;
+  }
+
+/* .textContainer {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+} */
+
+.heroFirst{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    opacity: 0;
+    position: relative;
+    opacity: 1;
+    display: inline-block;
+    right: 3%;
+    top: 20%;
+    font-size: 7rem;
+  }
+
+.heroSecond{
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  top: 20%;
+    margin: 15px 0 25px 0;
+    font-weight: 400;
+    font-size: 7rem;
+    opacity: 0;
+  }
+
+.heroThird{
+  display: inline-block;
+  position: relative;
+  top: 25%;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+    opacity: 0;
+    font-size: 3rem;
+}

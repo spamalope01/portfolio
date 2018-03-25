@@ -1,0 +1,16 @@
+footer{
+  height: 20rem;
+  background-color: #252a30;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.footerText {
+  display: inline-block;
+}
+
+
+.socFooter img {
+  width: 36px;
+}

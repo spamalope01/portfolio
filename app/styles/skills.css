@@ -1,0 +1,37 @@
+.expertise {
+  position: relative;
+  width: 100%;
+  /* margin-bottom: 1rem; */
+  border-bottom: 1px solid grey;
+  /* display: grid; */
+  /* grid-template-columns: repeat(12, 200px); */
+  /* grid-template-columns: repeat(8, 200px); */
+}
+
+.skillContainer {
+  text-align: center;
+  margin-top: 4rem;
+  /* margin-bottom: 5rem; */
+  padding-bottom: 5rem;
+  /* border-bottom: 1px solid grey; */
+}
+
+.baStuff {
+  width: 30%;
+  display: inline-block;
+  /* display: inline; */
+}
+
+.websites {
+  width: 30%;
+  display: inline-block;
+}
+
+.webApps {
+  width: 30%;
+  display: inline-block;
+}
+
+.skillImage {
+  width: 5rem;
+}

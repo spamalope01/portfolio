@@ -1,0 +1,100 @@
+.workSection{
+  background-color: #eee;
+  position: relative;
+  height: 100rem;
+  text-align: center;
+  /* background: pink; */
+  /* display: grid;
+  grid-template-columns: repeat(6, 280px);
+  grid-template-rows: repeat(6, 250px); */
+  border-bottom: 1px solid black;
+}
+
+.container {
+  margin: auto;
+  max-width: 80%;
+  position: relative;
+  height: 100%;
+}
+
+.workTitle {
+  margin-top: 0;
+}
+
+hr {
+  width: 86%;
+  border: 0;
+  border-top: 1px solid #d6e1e5;
+}
+
+
+.l2Image {
+  position: absolute;
+  left: 3%;
+  width: 40%;
+  /* margin-left: 30%; */
+  /* grid-column: 4 / 5;
+  grid-row: 1 / 2; */
+}
+
+.l2Text{
+  width: 40%;
+  position: absolute;
+  right: 8%;
+  top: 15%;
+  /* grid-column: 2 / 4;
+  grid-row: 1 / 2; */
+}
+
+.l2Desc, .devDesc, .petsDesc {
+  margin-bottom: 10%;
+}
+
+.work1Break{
+  position: absolute;
+  top: 36%;
+  margin-left: 6%;
+}
+
+.devolunteerImage {
+  position: absolute;
+  right: 5%;
+  top: 38%;
+  width: 40%;
+  /* grid-column: 2 / 4;
+  grid-row: 3 / 4; */
+}
+
+.devolunteerText{
+  position: absolute;
+  top: 43%;
+  left: 7%;
+  width: 40%;
+  /* grid-column: 4 / 6;
+  grid-row: 3 / 3; */
+}
+
+.work2Break {
+  position: absolute;
+  top: 64%;
+  margin-left: 6%;
+}
+
+.petsImage {
+  position: absolute;
+  left: 3%;
+  top: 66%;
+  width: 40%;
+  /* margin-left: 30%; */
+  /* grid-column: 4 / 5;
+  grid-row: 5 / 6; */
+}
+
+.gentlyPetsText {
+  position: absolute;
+  right: 8%;
+  top: 70%;
+  width: 40%;
+  /* grid-column: 2 / 4;
+  grid-row: 5 / 6; */
+}
