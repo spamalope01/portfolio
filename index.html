@@ -124,16 +124,19 @@
 
         <div id="contact" class="contactUs">
             <section>
-              <form class="contactForm" action="/send" method="post">
+              <!-- <form class="contactForm" action="/send" method="post"> -->
+              <form action="mail.php" method="POST">
                 <label for="sender">Name</label>
                 <input class="inputField" type="text" name="sender" value="" required>
                 <label for="email">Email</label>
                 <input class="inputField" type="email" name="email" value="">
-                <label for="phone">Phone Number</label>
-                <input class="inputField" type="text" name="phone" value="">
+                <!-- <label for="phone">Phone Number</label>
+                <input class="inputField" type="text" name="phone" value=""> -->
                 <label for="message">Message</label>
                 <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>
                 <input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit">
+                <input type="submit" value="Send"><input type="reset" value="Clear">
+              <!-- </form> -->
               </form>
               <span id="sentMessage"></span>
             </section>
@@ -153,6 +156,7 @@
     </footer>
   </body>
   <script type="text/javascript" src="scripts/app.js"></script>
-  <script type="text/javascript" src="scripts/mail.js"></script>
+  <!-- <script type="text/javascript" src="scripts/mail.js"></script> -->
+  <!-- <script type="text/javascript" src="scripts/mail.php"></script> -->
   <script type="text/javascript" src="scripts/smoothscroll.js"></script>
 </html>
