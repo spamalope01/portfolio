@@ -9,6 +9,8 @@
 }
 
 .skillContainer {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
   margin-top: 4rem;
   /* margin-bottom: 5rem; */
@@ -17,18 +19,18 @@
 }
 
 .baStuff {
-  width: 30%;
+  width: 20%;
   display: inline-block;
   /* display: inline; */
 }
 
 .websites {
-  width: 30%;
+  width: 20%;
   display: inline-block;
 }
 
 .webApps {
-  width: 30%;
+  width: 20%;
   display: inline-block;
 }
 
