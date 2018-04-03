@@ -123,12 +123,15 @@ text-transform: uppercase;
 
  @media only screen and (max-width: 480px){
 
-.logo {
+.logo{
+  display: none;
+}
+
+.mobileLogo {
   position: absolute;
   left: 20%;
   color: white;
   z-index: 10;
-  /* display: none; */
 }
 
 /* html{height:100%,width:100%} */
@@ -151,12 +154,14 @@ text-transform: uppercase;
    }
 
    .stickyNav {
+     /* display: none; */
      text-align: center;
      height: 6rem;
    }
 
    .mobileNav {
-     background-color: #252a30;
+     display: none;
+     /* background-color: #252a30;
      display: inline-block;
      position: absolute;
      list-style: none;
@@ -166,7 +171,7 @@ text-transform: uppercase;
      margin:0;
      padding:0;
      color: white;
-     height: 6em;
+     height: 6em; */
    }
 
    .mobileNav li {
