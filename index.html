@@ -17,6 +17,7 @@
     <header id="top">
       <nav class="stickyNav">
         <h1 class="logo">Jonathan Daniel</h1>
+        <h1 class="mobileLogo">Jonathan Daniel</h1>
         <ul class="globalNav">
             <li><a href="#expertise" class="smoothScroll">Services</a></li>
             <li><a href="#work" class="smoothScroll">My Work</a></li>
@@ -53,7 +54,7 @@
           </div>
           <div class="websites">
             <img class="skillImage" src="images/code.svg" alt="websites">
-            <div class"sitesText" >I can build basic websites.Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</div>
+            <div class"sitesText"> I can build basic websites.Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</div>
           </div>
           <div class="webApps">
             <img class="skillImage" src="images/laptop.svg" alt="applications">
@@ -73,7 +74,8 @@
           <div class="l2Text">
             <h3>L2 Engineers</h3>
             <p class="l2Desc">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-            <a href="" class="siteButton">View Site</a>
+            <a href="http://www.l2engineers.com" target="_
+            " class="siteButton">View Site</a>
           </div>
           <hr class="work1Break">
         </div>
@@ -83,7 +85,7 @@
           <div class="devolunteerText">
             <h3>DEVolunteer</h3>
             <p class="devDesc">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-            <a href="" class="siteButton">View Site</a>
+            <a href="http://devolunteer.herokuapp.com" target="_blank" class="siteButton">View Site</a>
           </div>
           <img class="devolunteerImage" src="images/devolHR-min.png" alt="Devolunteer">
           <hr class="work2Break">
@@ -95,7 +97,7 @@
           <div class="gentlyPetsText">
             <h3>Gently Used Pets</h3>
             <p class="petsDesc">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-            <a href="" class="siteButton">View Site</a>
+            <a href="http://gentlypets.herokuapp.com/" target="_blank" class="siteButton">View Site</a>
           </div>
         </div>
   </div>
@@ -114,10 +116,6 @@
             Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
             <a class="siteButton resumeDownload" href="#">download resume<img src="images/Adobe-PDF-Document-icon.png" alt=""></a>
           </div>
-          <div class="social">
-            <img src="https://www.linkedin.com/in/jonathanrdaniel/" alt="https://www.linkedin.com" target="_blank"> <!-- linkedin -->
-            <img src="https://github.com/spamalope01" alt="https://.github.com"> <!-- github -->
-          </div>
           <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top" target="_blank"></a>
           <!-- <a href="#top" class="backTop smoothScroll">Back to top</a> -->
         </section>
@@ -132,17 +130,19 @@
         <div id="contact" class="contactUs">
             <section>
               <!-- <form class="contactForm" action="/send" method="post"> -->
-              <form action="mail.php" method="POST">
+              <!-- <form action="mail.php" method="POST">
                 <label for="sender">Name</label>
                 <input class="inputField" type="text" name="sender" value="" required>
                 <label for="email">Email</label>
                 <input class="inputField" type="email" name="email" value="">
-                <!-- <label for="phone">Phone Number</label>
+                <label for="phone">Phone Number</label>
                 <input class="inputField" type="text" name="phone" value=""> -->
-                <label for="message">Message</label>
-                <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>
-                <input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit">
-                <input type="submit" value="Send"><input type="reset" value="Clear">
+                <!-- <label for="message">Message</label>
+                <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>  -->
+                <a href="mailto:jdanielwebdev@gmail.com" class="siteButton">Email Me</a>
+
+                <!-- <a href="mailto:"></a><input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit"> -->
+                <!-- <input type="submit" value="Send"><input type="reset" value="Clear"> -->
               <!-- </form> -->
               </form>
               <span id="sentMessage"></span>
