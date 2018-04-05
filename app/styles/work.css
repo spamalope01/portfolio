@@ -98,3 +98,63 @@ hr {
   /* grid-column: 2 / 4;
   grid-row: 5 / 6; */
 }
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 480px){
+  .workSection{
+    height: 125rem;
+  }
+
+
+  .container img {
+    width: 100%;
+  }
+
+  .l2Text, .devolunteerText, .gentlyPetsText{
+    width: 100%;
+  }
+
+  .l2Image{
+    left: 0;
+  }
+
+  .l2Text{
+    /* width: 100%; */
+    top: 16%;
+    right: 0;
+    /* left: 0; */
+  }
+
+  .work1Break{
+    top: 35%;
+  }
+
+
+  .devolunteerImage{
+    right: 0;
+    top: 36%;
+  }
+
+  .devolunteerText{
+    left: 0;
+    top: 46%;
+}
+
+  .work2Break{
+    top: 65%;
+  }
+
+.petsImage {
+  left: 0;
+  top: 66%;
+}
+
+.gentlyPetsText {
+  right: 0;
+  top: 76%;
+}
+
+
+ }

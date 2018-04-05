@@ -11,6 +11,10 @@
   display: none;
 }
 
+.mobileLogo {
+  display: none;
+}
+
 
 .globalNav {
   right: 5px;

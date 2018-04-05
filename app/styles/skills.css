@@ -37,3 +37,27 @@
 .skillImage {
   width: 5rem;
 }
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 480px){
+.skillContainer {
+  flex-direction: column;
+}
+
+.baStuff, .websites, .webApps{
+  width: 100%;
+}
+
+.skillImage{
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+
+
+
+
+
+ }
