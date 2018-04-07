@@ -28,3 +28,42 @@
   width: 1.5rem;
   margin-left: 2rem;
 }
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 480px){
+  .aboutMe {
+    height: 43rem;
+    text-align: center;
+  }
+
+
+  .meImage {
+    width: 50%;
+    left: 25%;
+    top: 15%;
+    margin: auto;
+  }
+
+  .meDescription {
+    width: 80%;
+    margin: auto;
+    top: 44%;
+    left: 11%;
+  }
+
+  .meText{
+    width: 100%;
+    margin: auto;
+  }
+
+  .resumeDownload {
+    display: none;
+  }
+
+
+
+
+
+ }
