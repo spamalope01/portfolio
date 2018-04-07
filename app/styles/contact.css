@@ -41,3 +41,22 @@ input, textarea {
   height: 10em;
   z-index: 10;
 }
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 480px){
+  .contactMe {
+    text-align: center;
+  }
+
+  .contactText {
+    margin: auto;
+  }
+
+.siteButton{
+  
+}
+
+
+ }
