@@ -19,6 +19,7 @@
 
 .workTitle {
   margin-top: 0;
+  padding-top: 2%;
 }
 
 hr {
@@ -41,7 +42,8 @@ hr {
   width: 40%;
   position: absolute;
   right: 8%;
-  top: 15%;
+  top: 10%;
+  line-height: 1.5;
   /* grid-column: 2 / 4;
   grid-row: 1 / 2; */
 }
@@ -67,9 +69,10 @@ hr {
 
 .devolunteerText{
   position: absolute;
-  top: 43%;
+  top: 40%;
   left: 7%;
   width: 40%;
+  line-height: 1.5;
   /* grid-column: 4 / 6;
   grid-row: 3 / 3; */
 }
@@ -93,8 +96,9 @@ hr {
 .gentlyPetsText {
   position: absolute;
   right: 8%;
-  top: 70%;
+  top: 68%;
   width: 40%;
+  line-height: 1.5;
   /* grid-column: 2 / 4;
   grid-row: 5 / 6; */
 }

@@ -1,4 +1,5 @@
 footer{
+  position: relative;
   height: 20rem;
   background-color: #252a30;
   color: #fff;
@@ -7,10 +8,17 @@ footer{
 }
 
 .footerText {
+  position: absolute;
+  bottom: 20%;
+  right: 40%;
   display: inline-block;
 }
 
-
+.socFooter{
+  position: absolute;
+  bottom: 1%;
+  left: 47.5%;
+}
 .socFooter img {
   width: 36px;
 }

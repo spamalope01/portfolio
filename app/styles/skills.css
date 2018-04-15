@@ -38,6 +38,10 @@
   width: 5rem;
 }
 
+.baText, .sitesText, .appsText {
+  line-height: 1.5;
+}
+
 
 /* Mobile */
 
