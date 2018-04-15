@@ -3,6 +3,7 @@
   width: 100%;
   height: 35rem;
   border-bottom: 1px solid black;
+  text-align: center;
 }
 
 .meImage{
@@ -22,6 +23,7 @@
 
 .meDescription p {
   margin-bottom: 10%;
+  line-height: 1.5;
 }
 
 .meDescription img {
