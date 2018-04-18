@@ -3,8 +3,12 @@ $(window).scroll(function() {
 
   if (scroll >= 100) {
     $('.stickyNav').addClass('darkNav');
+    $('.logo').css('color', '#000');
+    $('.smoothScroll').css('color', '#000');
   } else {
     $('.stickyNav').removeClass('darkNav');
+    $('.logo').css('color', '#fff');
+    $('.smoothScroll').css('color', '#fff');
   }
 });
 
