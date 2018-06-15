@@ -145,25 +145,64 @@
         <!-- </div> -->
 
         <div id="contact" class="contactUs">
-            <section>
+          <section>
+            <form name="contactform" method="post" action="send_form_email.php">
+              <label for="first_name">First Name *</label>
+              <input  type="text" name="first_name" maxlength="50" size="30">
+              <label for="last_name">Last Name *</label>
+              <input  type="text" name="last_name" maxlength="50" size="30">
+              <!-- <label for="sender">Name</label>
+              <input class="inputField" type="text" name="sender" value="" required> -->
+              <label for="email">Email</label>
+              <input class="inputField" type="email" name="email" value="">
+              <!-- <label for="telephone">Phone Number</label>
+              <input class="inputField" type="text" name="phone" value=""> -->
+              <label for="comments">Message</label>
+              <textarea class="inputField" name="comments" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>
+
+              <input type="submit" value="Submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- <?php include 'mail.php';?> -->
               <!-- <form class="contactForm" action="/send" method="post"> -->
-              <!-- <form action="mail.php" method="POST">
+              <!-- <form action="mail.php" method="$_POST">
                 <label for="sender">Name</label>
                 <input class="inputField" type="text" name="sender" value="" required>
                 <label for="email">Email</label>
                 <input class="inputField" type="email" name="email" value="">
                 <label for="phone">Phone Number</label>
                 <input class="inputField" type="text" name="phone" value=""> -->
-                <!-- <label for="message">Message</label>
-                <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>  -->
+                <!-- <label for="message">Message</label> -->
+                <!-- <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>  -->
 
-                <!-- <a href="mailto:"></a><input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit"> -->
+                <!-- <a href="mailto:"></a><input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit"> --> -->
                 <!-- <input type="submit" value="Send"><input type="reset" value="Clear"> -->
               <!-- </form> -->
-              </form>
-              <span id="sentMessage"></span>
+               <!-- </form> -->
+              <!-- <span id="sentMessage"></span> -->
             </section>
-            <a href="mailto:jdanielwebdev@gmail.com" class="siteButton contactButton">Email Me</a>
+            <!-- <a href="mailto:jdanielwebdev@gmail.com" class="siteButton contactButton">Email Me</a> -->
           </div>
         </div>
           <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
@@ -171,16 +210,17 @@
         </section>
       </section>
     </main>
-    <footer>
-      <p class="footerText">Designed and built by Jonathan Daniel &copy 2018</p>
-      <div class="socFooter">
-        <a href="https://github.com/spamalope01" target="_blank"><img class="invert" src="images/github.png" alt="GitHub"></a> <!-- github -->
-        <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank"><img class="invert" src="images/linkedin.png" alt="LinkedIn"></a> <!-- linkedin -->
-    </div>
-    </footer>
+    <!-- <footer> -->
+      <!-- <p class="footerText">Designed and built by Jonathan Daniel &copy 2018</p> -->
+      <!-- <div class="socFooter"> -->
+        <!-- <a href="https://github.com/spamalope01" target="_blank"><img class="invert" src="images/github.png" alt="GitHub"></a> <!-- github --> -->
+        <!-- <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank"><img class="invert" src="images/linkedin.png" alt="LinkedIn"></a> <!-- linkedin --> -->
+    <!-- </div> -->
+    <!-- </footer> -->
   </body>
   <script type="text/javascript" src="scripts/app.js"></script>
   <!-- <script type="text/javascript" src="scripts/mail.js"></script> -->
   <!-- <script type="text/javascript" src="scripts/mail.php"></script> -->
   <script type="text/javascript" src="scripts/smoothscroll.js"></script>
 </html>
+<!--  -->
