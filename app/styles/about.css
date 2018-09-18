@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.aboutTitle {
+  margin-top: 10%;
+}
+
 .meImage{
   position: absolute;
   top: 20%;
@@ -29,6 +33,11 @@
 .meDescription img {
   width: 1.5rem;
   margin-left: 2rem;
+}
+
+#topContact {
+  position: absolute;
+  bottom: 4%;
 }
 
 

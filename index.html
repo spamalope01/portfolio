@@ -20,14 +20,14 @@
         <h1 class="logo"><a class="logoLink" href="#top">Jonathan Daniel</a></h1>
         <h1 class="mobileLogo"><img class="mobileLogo" src="images/JDLogoWhite.png" alt="lightbulb"></h1>
         <ul class="globalNav">
-            <li><a href="#expertise" class="smoothScroll">Services</a></li>
-            <li><a href="#work" class="smoothScroll">My Work</a></li>
-            <li><a href="#about" class="smoothScroll">About Me</a></li>
-            <li><a href="#contact" class="smoothScroll">Contact Me</a></li>
+            <li><a href="#topSkills" class="smoothScroll">Services</a></li>
+            <li><a href="#topWork" class="smoothScroll">My Work</a></li>
+            <li><a href="#topMe" class="smoothScroll">About Me</a></li>
+            <li><a href="#topContact" class="smoothScroll">Contact Me</a></li>
           </ul>
 
           <ul class="mobileNav">
-            <li class="svcsNav"><a href="#services" class="smoothScroll">Services</a></li>
+            <li class="svcsNav"><a href="#topSkills" class="smoothScroll">Services</a></li>
             <li class="workNav"><a href="#work" class="smoothScroll">My Work</a></li>
             <li class="aboutNav"><a href="#aboutMob" class="smoothScroll">About Me</a></li>
             <li class="contactNav"><a href="#contact" class="smoothScroll">Contact Me</a></li>
@@ -44,12 +44,13 @@
             <h3 class="heroThird">I build websites and web applications.</h3>
           <!-- </div> -->
         </div>
-
+        <span id="topSkills"></span>
         <div class="learnMore">
         <a href="#expertise" class="learnLink">Learn More</a>
         <a href="#expertise" class="moreIcon"><img class="moreDown" src="images/chevronDown.png" alt="Scroll Down"></a>
         </div>
       </section>
+      <!-- end hero -->
 
       <section id="expertise" class="expertise">
         <div class="skillContainer">
@@ -77,11 +78,12 @@
               </p>
             </div>
         </div>
+        <span id="topWork"></span>
         <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
-        <!-- <a href="#top" class="backTop smoothScroll">Back to top</a> -->
       </section>
+<!-- end services -->
 
-      <section id="work" class="workSection">
+      <section class="workSection">
         <div class="container">
         <h1 class="workTitle">My Work</h1>
           <p class="workDesc">Here are some examples of my most recent projects.</p>
@@ -116,8 +118,8 @@
             <a href="http://gentlypets.herokuapp.com/" target="_blank" class="siteButton">View Site</a>
           </div>
         </div>
+        <span id="topMe"></span>
   </div>
-        <!-- <a href="#top" class="backTop smoothScroll">Back to top</a> -->
         <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
       </section>
 
@@ -133,9 +135,8 @@
             <a class="siteButton resumeDownload" href="https://drive.google.com/file/d/19B-4rL-sPM4Wj9SkNj7AvgI1Sicgtryx/view?usp=sharing">download resume<img src="images/Adobe-PDF-Document-icon.png" alt=""></a>
           </div>
           <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top" target="_blank"></a>
-          <!-- <a href="#top" class="backTop smoothScroll">Back to top</a> -->
         </section>
-
+        <span id="topContact"></span>
       </section>
 
       <section class="contactMe">
@@ -144,23 +145,42 @@
           <p>Send me an email.  Tell me about your project and how I can help.</p>
         <!-- </div> -->
 
-        <div id="contact" class="contactUs">
+        <!-- <div id="contact" class="contactUs">
           <section>
             <form name="contactform" method="post" action="send_form_email.php">
               <label for="first_name">First Name *</label>
               <input  type="text" name="first_name" maxlength="50" size="30">
               <label for="last_name">Last Name *</label>
-              <input  type="text" name="last_name" maxlength="50" size="30">
+              <input  type="text" name="last_name" maxlength="50" size="30"> -->
               <!-- <label for="sender">Name</label>
               <input class="inputField" type="text" name="sender" value="" required> -->
-              <label for="email">Email</label>
-              <input class="inputField" type="email" name="email" value="">
+              <!-- <label for="email">Email</label>
+              <input class="inputField" type="email" name="email" value=""> -->
               <!-- <label for="telephone">Phone Number</label>
               <input class="inputField" type="text" name="phone" value=""> -->
-              <label for="comments">Message</label>
+              <!-- <label for="comments">Message</label>
               <textarea class="inputField" name="comments" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>
 
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit"> -->
+
+
+              <div class="contactUs">
+                          <section>
+                            <form class="contactForm" action="/send" method="post">
+                              <label for="sender">Name yo</label>
+                              <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
+                              <label for="email">Email</label>
+                              <input class="inputField" type="email" name="email" value="" autocomplete="email">
+                              <label for="phone">Phone Number</label>
+                              <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
+                              <label for="message">Message</label>
+                              <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
+                              <input class="sendMail btn" type="button" name="sendIt" value="Submit">
+                            </form>
+                            <span id="sentMessage"></span>
+                          </section>
+                        </div>
+                      </div>
 
 
 
@@ -182,39 +202,19 @@
 
 
 
-
-
-              <!-- <?php include 'mail.php';?> -->
-              <!-- <form class="contactForm" action="/send" method="post"> -->
-              <!-- <form action="mail.php" method="$_POST">
-                <label for="sender">Name</label>
-                <input class="inputField" type="text" name="sender" value="" required>
-                <label for="email">Email</label>
-                <input class="inputField" type="email" name="email" value="">
-                <label for="phone">Phone Number</label>
-                <input class="inputField" type="text" name="phone" value=""> -->
-                <!-- <label for="message">Message</label> -->
-                <!-- <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too.'" ></textarea>  -->
-
-                <!-- <a href="mailto:"></a><input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit"> --> -->
-                <!-- <input type="submit" value="Send"><input type="reset" value="Clear"> -->
-              <!-- </form> -->
-               <!-- </form> -->
-              <!-- <span id="sentMessage"></span> -->
             </section>
             <!-- <a href="mailto:jdanielwebdev@gmail.com" class="siteButton contactButton">Email Me</a> -->
           </div>
         </div>
           <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
-          <!-- <img src="images/backTop.svg" alt=""><a href="#top" class="backTop smoothScroll">Back to contact</a> -->
         </section>
       </section>
     </main>
     <!-- <footer> -->
       <!-- <p class="footerText">Designed and built by Jonathan Daniel &copy 2018</p> -->
       <!-- <div class="socFooter"> -->
-        <!-- <a href="https://github.com/spamalope01" target="_blank"><img class="invert" src="images/github.png" alt="GitHub"></a> <!-- github --> -->
-        <!-- <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank"><img class="invert" src="images/linkedin.png" alt="LinkedIn"></a> <!-- linkedin --> -->
+        <!-- <a href="https://github.com/spamalope01" target="_blank"><img class="invert" src="images/github.png" alt="GitHub"></a> <!-- github -->
+        <!-- <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank"><img class="invert" src="images/linkedin.png" alt="LinkedIn"></a> <!-- linkedin -->
     <!-- </div> -->
     <!-- </footer> -->
   </body>
