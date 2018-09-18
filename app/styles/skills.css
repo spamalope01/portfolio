@@ -43,6 +43,11 @@
   line-height: 1.5;
 }
 
+#topWork {
+  position: absolute;
+  bottom: 14%;
+}
+
 
 /* Mobile */
 

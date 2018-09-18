@@ -153,7 +153,10 @@ text-transform: uppercase;
   left: 50%;
 }
 
-
+#topSkills {
+  position: absolute;
+  bottom: 10%;
+}
 
 
 
