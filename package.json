@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "express": "~4.14.0",
-    "nodemailer": "^4.4.0",
+    "nodemailer": "^4.6.8",
     "nodemon": "^1.12.1"
   },
   "homepage": "https://github.com/spamalope01/portfolio#readme"

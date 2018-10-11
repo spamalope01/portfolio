@@ -164,23 +164,41 @@
               <input type="submit" value="Submit"> -->
 
 
-              <div class="contactUs">
+              <!-- <div class="contactUs">
+                <section>
+                  <form class="contactForm" action="/send" method="post">
+                    <label for="sender">Name yo</label>
+                    <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
+                    <label for="email">Email</label>
+                    <input class="inputField" type="email" name="email" value="" autocomplete="email">
+                    <label for="phone">Phone Number</label>
+                    <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
+                    <label for="message">Message</label>
+                    <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
+                    <input type="button" class=".mailbtn" value="Submit">
+                    <input class="sendMail btn siteButton" type="button" name="sendIt" value="Submit">
+                  </form>
+                  <span id="sentMessage"></span>
+                </section>
+              </div> -->
+
+              <div id="contact" class="contactUs">
                           <section>
                             <form class="contactForm" action="/send" method="post">
-                              <label for="sender">Name yo</label>
-                              <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
+                              <label for="sender">Name</label>
+                              <input class="inputField" type="text" name="sender" value="" required>
                               <label for="email">Email</label>
-                              <input class="inputField" type="email" name="email" value="" autocomplete="email">
+                              <input class="inputField" type="email" name="email" value="">
                               <label for="phone">Phone Number</label>
-                              <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
+                              <input class="inputField" type="text" name="phone" value="">
                               <label for="message">Message</label>
-                              <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
-                              <input class="sendMail btn" type="button" name="sendIt" value="Submit">
+                              <textarea class="inputField" name="message" rows="8" cols="80" placeholder="Tell me about your project.  How can I help?  Why are you doing this and what do you want to accomplish? Budget and timeline information is good too."></textarea>
+                              <!-- <a href="" class"sendMail">Send Mail</a> -->
+                              <input id="mailBtn" class="sendMail" type="submit" name="sendIt" value="Submit">
                             </form>
                             <span id="sentMessage"></span>
                           </section>
                         </div>
-                      </div>
 
 
 
