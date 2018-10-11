@@ -3,7 +3,7 @@ var app = express();
 var nodemailer = require('nodemailer');
 var port = process.env.PORT || 9000;
 
-var password = require('./variables');
+//var password = require('./variables');
 //var pass = stone905;
 var pass = password.password;
 var user = password.user;
