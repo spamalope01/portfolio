@@ -5,8 +5,8 @@ var port = process.env.PORT || 9000;
 
 //var password = require('./variables');
 //var pass = stone905;
-var pass = password.password;
-var user = password.user;
+// var pass = password.password;
+// var user = password.user;
 
 
 app.use(express.static(__dirname + '/app'));
@@ -16,13 +16,13 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-var smtpTransport = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  auth: {
-    user: user,
-    pass: pass
-  }
-});
+// var smtpTransport = nodemailer.createTransport({
+//   host: "smtp.gmail.com",
+//   auth: {
+//     user: user,
+//     pass: pass
+//   }
+// });
 
 app.get('/send', function(req, res) {
   console.log('in the send');
