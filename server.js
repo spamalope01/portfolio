@@ -16,13 +16,13 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-// var smtpTransport = nodemailer.createTransport({
-//   host: "smtp.gmail.com",
-//   auth: {
-//     user: user,
-//     pass: pass
-//   }
-// });
+var smtpTransport = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  auth: {
+    user: spamalope01,
+    pass: stone905
+  }
+});
 
 app.get('/send', function(req, res) {
   console.log('in the send');
