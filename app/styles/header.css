@@ -209,18 +209,23 @@ text-transform: uppercase;
      display: none;
    }
 
+   .darkNav {
+     display: none;
+   }
+
+
    .mobileNav li {
-     margin: 0, auto;
+     /* margin: 0, auto;
      display: inline;
      font-size: 1em;
      line-height: 1;
      text-decoration: none;
-     text-transform: uppercase;
+     text-transform: uppercase; */
    }
 
    .mobileNav li a {
-     color: white;
-     text-decoration: none;
+     /* color: white;
+     text-decoration: none; */
    }
 
 
