@@ -67,8 +67,12 @@ width: 3em;
     padding-top: 3%;
   }
 
-  .ghLogo, .liLogo, .mailLogo {
+  .ghLogo, .mailLogo {
     width: 5em;
+  }
+
+  .liLogo {
+    width: 6em;
   }
 
   .footerText {
