@@ -61,10 +61,15 @@ input, textarea {
     text-align: center;
   }
 
+.contactTitle {
+  font-size: 3em;
+}
+
   .contactBlurb {
     width: 90%;
     margin: auto;
     line-height: 1.5;
+    font-size: 2em;
   }
 
 .emailLink{

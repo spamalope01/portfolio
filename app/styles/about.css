@@ -45,7 +45,7 @@
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .aboutMe {
-    height: 43rem;
+    height: 85rem;
     text-align: center;
   }
 
@@ -56,15 +56,16 @@
   .meImage {
     width: 50%;
     left: 25%;
-    top: 15%;
+    top: 9%;
     margin: auto;
   }
 
   .meDescription {
     width: 80%;
     margin: auto;
-    top: 47%;
+    top: 46%;
     left: 11%;
+    font-size: 2.5em;
   }
 
   .meText{
