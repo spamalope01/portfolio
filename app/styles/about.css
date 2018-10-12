@@ -49,6 +49,9 @@
     text-align: center;
   }
 
+.aboutTitle {
+  font-size: 3em;
+}
 
   .meImage {
     width: 50%;

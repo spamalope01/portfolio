@@ -113,11 +113,11 @@ hr {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .workSection{
-    height: 125rem;
+    height: 300rem;
   }
 
 .container{
-  padding-top: 6%;
+  padding-top: 2%;
 }
 
   .container img {
@@ -139,12 +139,12 @@ hr {
 
   .l2Image{
     left: 0;
-    top: 5%;
+    top: 3%;
   }
 
   .l2Text{
     /* width: 100%; */
-    top: 16%;
+    top: 14%;
     right: 0;
     /* left: 0; */
   }
@@ -165,7 +165,7 @@ hr {
 }
 
   .work2Break{
-    top: 65%;
+    top: 66%;
   }
 
 .petsImage {
