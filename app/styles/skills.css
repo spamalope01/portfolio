@@ -65,9 +65,15 @@ text-align: center;
   margin-top: 0rem;
 }
 
+.skillsTitle {
+  font-size: 3em;
+}
+
+
 .baText, .sitesText, .appsText {
   width: 90%;
   margin: auto;
+  font-size: 2.5em;
 }
 
 .baStuff, .websites, .webApps{
@@ -77,6 +83,7 @@ text-align: center;
 .skillImage{
   margin-top: 8%;
   margin-bottom: 4%;
+  width: 7rem;
 }
 
 
