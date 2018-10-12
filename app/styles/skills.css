@@ -18,6 +18,12 @@
   /* border-bottom: 1px solid grey; */
 }
 
+.skillsTitle {
+text-align: center;
+  margin-top: 4%;
+}
+
+
 .baStuff {
   width: 20%;
   display: inline-block;
@@ -54,6 +60,12 @@
  @media only screen and (max-width: 480px){
 .skillContainer {
   flex-direction: column;
+  margin-top: 0rem;
+}
+
+.baText, .sitesText, .appsText {
+  width: 90%;
+  margin: auto;
 }
 
 .baStuff, .websites, .webApps{

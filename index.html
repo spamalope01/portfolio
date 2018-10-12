@@ -21,7 +21,7 @@
   <body>
     <header id="top">
       <nav class="stickyNav">
-        <h1 class="logo"><a class="logoLink" href="#top">Jonathan Daniel</a></h1>
+        <h1 class="logo"><a class="logoLink" href="#top"><img class="desktopLogo" src="images/JDLogoWhite.png" alt="lightbulb"></a></h1>
         <h1 class="mobileLogo"><img class="mobileLogo" src="images/JDLogoWhite.png" alt="lightbulb"></h1>
         <ul class="globalNav">
             <li><a href="#topSkills" class="smoothScroll">Services</a></li>
@@ -44,7 +44,7 @@
         <div class="heroText">
           <!-- <div class="textContainer"> -->
             <h1 class="heroFirst">Hey there.</h1>
-            <h2 class="heroSecond">I'm Jonathan</h2>
+            <h2 class="heroSecond">I'm Jonathan.</h2>
             <h3 class="heroThird">I build websites and web applications.</h3>
           <!-- </div> -->
         </div>
@@ -57,6 +57,9 @@
       <!-- end hero -->
 
       <section id="expertise" class="expertise">
+        <div class="skillsTitleHolder">
+        <h1 class="skillsTitle">What Can I Do For You?</h1>
+        </div>
         <div class="skillContainer">
           <div class="baStuff">
             <img class="skillImage" src="images/light-bulb.svg" alt="lightbulb">
@@ -136,7 +139,7 @@
         <section class="meText">
           <div class="meDescription">
             <p>I learned to write code because I have a deep passion for bringing meaningful impact to the lives of users. I want you and anyone who engages with your site or application to do so happily and leave feeling great about what they were able to accomplish.  I want to make the world a better place through elegantly designed software and websites. </p>
-            <a class="siteButton resumeDownload" href="https://drive.google.com/file/d/19B-4rL-sPM4Wj9SkNj7AvgI1Sicgtryx/view?usp=sharing">download resume<img src="images/Adobe-PDF-Document-icon.png" alt=""></a>
+            <a class="siteButton resumeDownload" href="https://drive.google.com/file/d/19B-4rL-sPM4Wj9SkNj7AvgI1Sicgtryx/view?usp=sharing">Download My Resume<img src="images/Adobe-PDF-Document-icon.png" alt=""></a>
           </div>
           <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top" target="_blank"></a>
         </section>
@@ -145,15 +148,14 @@
 
       <section class="contactMe">
         <!-- <div class="contactText"> -->
-          <h1>Want to work together?</h1>
-          <p>Send me an email.  Tell me about your project and how I can help.</p>
+          <h1 class="contactTitle">Want to work together?</h1>
+          <p class="contactBlurb">Send me an email.  Tell me about your project and how I can help.</p>
           <a href="mailto:jdanielwebdev@gmail.com" class="siteButton emailLink">Email Me</a>
 
-<!-- action="/send" method="post" -->
-
+              <!-- Contact Form to be added later -->
               <!-- <div class="contactUs">
                 <section>
-                  <form class="contactForm">
+                  <form class="contactForm" action="/send" method="post">
                     <label for="sender">Name yo</label>
                     <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
                     <label for="email">Email</label>
@@ -162,70 +164,31 @@
                     <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
                     <label for="message">Message</label>
                     <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
-                    <!-- <button class="shitHead">submit, yo</button> -->
-                    <!-- <button class="sendMail shitHead btn siteButton" type="button" name="sendIt" value="Submit shit"></button>
+                     <button class="shitHead">submit, yo</button>
+                    <<button class="sendMail shitHead btn siteButton" type="button" name="sendIt" value="Submit shit"></button>
                   </form>
                   <span id="sentMessage"></span>
                 </section>
               </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              <a href="#top" class=" contactTop backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
             </section>
-            <!-- <a href="mailto:jdanielwebdev@gmail.com" class="siteButton contactButton">Email Me</a> -->
           </div>
         </div>
-          <a href="#top" class="backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
         </section>
       </section>
     </main>
-    <!-- <footer> -->
-      <!-- <p class="footerText">Designed and built by Jonathan Daniel &copy 2018</p> -->
-      <!-- <div class="socFooter"> -->
-        <!-- <a href="https://github.com/spamalope01" target="_blank"><img class="invert" src="images/github.png" alt="GitHub"></a> <!-- github -->
-        <!-- <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank"><img class="invert" src="images/linkedin.png" alt="LinkedIn"></a> <!-- linkedin -->
-    <!-- </div> -->
-    <!-- </footer> -->
+    <footer>
+      <h1 class="bottomLogo"><img class="footerLogo" src="images/JDLogoWhite.png" alt="lightbulb"></h1>
+      <div class="socFooter">
+        <a href="https://github.com/spamalope01" target="_blank" class="ghLink"><img class="invert ghLogo" src="images/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/jonathanrdaniel/" target="_blank" class="liLink"><img class="liLogo invert" src="images/linkIcon.png" alt="LinkedIn"></a>
+        <a href="mailto:jdanielwebdev@gmail.com" class="mailLink"><img class="invert mailLogo" src="images/testMail.png" alt="Email"></a>
+      </div>
+    <p class="footerText">Designed and built by Jonathan Daniel &copy 2018</p>
+    </footer>
   </body>
   <script type="text/javascript" src="scripts/app.js"></script>
   <!-- <script type="text/javascript" src="scripts/mail.js"></script> -->
   <!-- <script type="text/javascript" src="scripts/mail.php"></script> -->
   <script type="text/javascript" src="scripts/smoothscroll.js"></script>
 </html>
-<!--  -->

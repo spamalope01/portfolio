@@ -4,7 +4,6 @@
   width: 100%;
   z-index: 6;
   height: 5em;
-  /* border-bottom: 1px solid #fff; */
 }
 
 .mobileNav {
@@ -51,6 +50,10 @@ text-transform: uppercase;
 
 }
 
+.desktopLogo {
+  width: 45%;
+}
+
 .logoLink {
   display: inline;
   position: absolute;
@@ -84,16 +87,9 @@ text-transform: uppercase;
   opacity: 0;
   }
 
-/* .textContainer {
-  position: absolute;
-  top: 30%;
-  left: 40%;
-} */
 
 .heroFirst{
   font-size: 5.7rem;
-    /* text-transform: uppercase; */
-    /* font-size: 50px; */
     margin: 0;
     opacity: 0;
     position: relative;
@@ -101,7 +97,6 @@ text-transform: uppercase;
     display: inline-block;
     right: 3%;
     top: 20%;
-    /* font-size: 7rem; */
   }
 
 .heroSecond{
@@ -111,8 +106,6 @@ text-transform: uppercase;
   left: 0%;
   top: 20%;
     margin: 15px 0 25px 0;
-    /* font-weight: 400; */
-    /* font-size: 7rem; */
     opacity: 0;
   }
 
@@ -126,7 +119,6 @@ text-transform: uppercase;
     display: inline-block;
     margin-top: 80px;
     opacity: 0;
-    /* font-size: 3rem; */
 }
 
 .learnMore {
@@ -244,6 +236,10 @@ text-transform: uppercase;
 
 .heroThird{
   font-size: 2em;
+}
+
+.learnMore {
+  left: 40.5%;
 }
 
 
