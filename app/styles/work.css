@@ -116,6 +116,9 @@ hr {
     height: 125rem;
   }
 
+.container{
+  padding-top: 6%;
+}
 
   .container img {
     width: 100%;
@@ -127,6 +130,7 @@ hr {
 
   .l2Image{
     left: 0;
+    top: 5%;
   }
 
   .l2Text{
@@ -137,7 +141,7 @@ hr {
   }
 
   .work1Break{
-    top: 35%;
+    top: 36%;
   }
 
 

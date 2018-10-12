@@ -57,20 +57,21 @@ input, textarea {
 
  @media only screen and (max-width: 480px){
   .contactMe {
-    height: 10rem;
+    height: auto;
     text-align: center;
   }
 
-  .contactText {
+  .contactBlurb {
+    width: 90%;
     margin: auto;
+    line-height: 1.5;
   }
 
-.contactButton{
-  position: absolute;
-  top: 20%;
-  right: 25%;
+.emailLink{
   display: block;
-  width: auto;
+  width: 25%;
+  margin-top: 10%;
+  margin-bottom: 15%;
   /* margin: auto; */
 }
 
