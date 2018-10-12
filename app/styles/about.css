@@ -1,14 +1,14 @@
 .aboutMe {
   position: relative;
   width: 100%;
-  height: 35rem;
+  height: 28rem;
   border-bottom: 1px solid black;
   text-align: center;
 }
 
-.aboutTitle {
+/* .aboutTitle {
   margin-top: 10%;
-}
+} */
 
 .meImage{
   position: absolute;
