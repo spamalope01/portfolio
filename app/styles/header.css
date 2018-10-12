@@ -111,6 +111,7 @@ text-transform: uppercase;
 
 .heroThird{
   font-size: 5.7rem;
+  width: 75%;
   display: inline-block;
   position: relative;
   top: 18%;
@@ -157,7 +158,7 @@ text-transform: uppercase;
 
  @media only screen and (max-width: 480px){
 
-.logo{
+.desktopLogo{
   display: none;
 }
 
@@ -174,15 +175,23 @@ text-transform: uppercase;
 /* html{height:100%,width:100%} */
 
  .hero{
-       height: 100vh;
-       position: relative;
-       text-align: center;
+   background: url('../images/portfolioHero-min.jpg');
+   -webkit-background-size: cover;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #464646;
+   min-height: 100vh;
+
+
+       /* position: relative;
        width: 100%;
        min-height: 350px;
        background-color: #252a30;
        background-size: cover;
        background-position: center center;
-       background-repeat: no-repeat;
+       background-repeat: no-repeat; */
 
  }
 
@@ -198,17 +207,6 @@ text-transform: uppercase;
 
    .mobileNav {
      display: none;
-     /* background-color: #252a30;
-     display: inline-block;
-     position: absolute;
-     list-style: none;
-     bottom: 0%;
-     right: 0%;
-     width: 100%;
-     margin:0;
-     padding:0;
-     color: white;
-     height: 6em; */
    }
 
    .mobileNav li {
