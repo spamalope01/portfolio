@@ -1,63 +1,51 @@
-(function(module){
-  var mail = {};
+$(function() {
 
-  mail.$from = null;
-  mail.$phone = null;
-  mail.$email = null;
-  mail.$message = null;
+// Get the form.
+  var form = $('#ajax-contact');
 
+  // Get the messages div.
+  var formMessages = $('#form-messages');
 
-  // mail.getForm = function(){
-  //   // $('.blah').on('Submit', '.shitHead', function(e){
-  //     console.log('in the getform');
-  //     e.preventDefault();
-  //   });
+  // Set up an event listener for the contact form.
+  $(form).submit(function(e) {
+    // Stop the browser from submitting the form.
+    e.preventDefault();
 
+    // Serialize the form data.
+    var formData = $(form).serialize();
 
+    // Submit the form using AJAX.
+    $.ajax({
+      type: 'POST',
+      url: $(form).attr('action'),
+      data: formData
+    })
+      .done(function(response) {
+        // Make sure that the formMessages div has the 'success' class.
+        $(formMessages).removeClass('error');
+        $(formMessages).addClass('success');
 
+        // Set the message text.
+        $(formMessages).text(response);
 
+        // Clear the form.
+        $('#name').val('');
+        $('#email').val('');
+        $('#message').val('');
+      })
+      .fail(function(data) {
+        // Make sure that the formMessages div has the 'error' class.
+        $(formMessages).removeClass('success');
+        $(formMessages).addClass('error');
 
-    // $('.contactForm').off().on('click', '.sendMail', function(e){
-    //   console.log('clicked the form');
-    //   e.preventDefault();
-    //   mail.$from = $('.contactForm input[name=sender]').val();
-    //   mail.$email = $('.contactForm input[name=email]').val();
-    //   mail.$phone = $('.contactForm input[name=phone]').val();
-    //   mail.$message = $('.contactForm textarea[name=message]').val();
-      // $.get("http://localhost:9000/send", {
-      //   from: mail.$from,
-      //   phone: mail.$phone,
-      //   email: mail.$email,
-      //   text: mail.$message
-      // }, function(data){
-      //   console.log('in the get function');
-      //   if(data == "sent"){
-      //     console.log("email sent");
-      //     $('.contactForm').hide();
-      //     $('.contactInvite').hide();
-      //     $('#sentMessage').empty().html(
-      //       'Your email has been sent.  Thank you!  We will be in touch soon.'
-      //     );
-      //   }
-      // });
-    //});
-  //};
+        // Set the message text.
+        if (data.responseText !== '') {
+          $(formMessages).text(data.responseText);
+        } else {
+          $(formMessages).text('Oops! An error occured and your message could not be sent.');
+        }
+      });
 
-
-
-
-  $(document).ready(function() {
-    mail.getForm();
-    // mail.showContact();
-    // mail.hideContact();
-    // $('.slideout').hide();
-    mail.sendForm();
   });
 
-
-
-
-
-
-  module.mail = mail;
-})(window);
+});

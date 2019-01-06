@@ -148,28 +148,34 @@
 
       <section class="contactMe">
         <!-- <div class="contactText"> -->
-          <h1 class="contactTitle">Want to work together?</h1>
+          <!-- <h1 class="contactTitle">Want to work together?</h1>
           <p class="contactBlurb">Send me an email.  Tell me about your project and how I can help.</p>
-          <a href="mailto:jdanielwebdev@gmail.com" class="siteButton emailLink">Email Me</a>
+          <a href="mailto:jdanielwebdev@gmail.com" class="siteButton emailLink">Email Me</a> -->
 
               <!-- Contact Form to be added later -->
-              <!-- <div class="contactUs">
-                <section>
-                  <form class="contactForm" action="/send" method="post">
-                    <label for="sender">Name yo</label>
-                    <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
-                    <label for="email">Email</label>
-                    <input class="inputField" type="email" name="email" value="" autocomplete="email">
-                    <label for="phone">Phone Number</label>
-                    <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
-                    <label for="message">Message</label>
-                    <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
-                     <button class="shitHead">submit, yo</button>
-                    <<button class="sendMail shitHead btn siteButton" type="button" name="sendIt" value="Submit shit"></button>
-                  </form>
-                  <span id="sentMessage"></span>
-                </section>
-              </div> -->
+              <div class="contactUs">
+                <div id="form-messages"></div>
+              <form id="ajax-contact" method="post" action="mailer.php">
+                  <div class="field">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+
+                  <div class="field">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+
+                  <div class="field">
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" required></textarea>
+                  </div>
+
+                  <div class="field">
+                      <button type="submit">Send</button>
+                  </div>
+                </form>
+              </div>
               <a href="#top" class=" contactTop backTop smoothScroll"><img class="backTop" src="images/backTop.png" alt="Back To Top"></a>
             </section>
           </div>
@@ -188,7 +194,6 @@
     </footer>
   </body>
   <script type="text/javascript" src="scripts/app.js"></script>
-  <!-- <script type="text/javascript" src="scripts/mail.js"></script> -->
-  <!-- <script type="text/javascript" src="scripts/mail.php"></script> -->
+  <script type="text/javascript" src="scripts/mail.js"></script>
   <script type="text/javascript" src="scripts/smoothscroll.js"></script>
 </html>
